@@ -1,0 +1,13 @@
+dual variable:
+
+plot(as.numeric(as.character(x$Year)), x$Global_Sales, main="Video Games", xlab="Year", ylab="Global Sales")
+
+
+variable 1:
+
+hist(as.numeric(as.character(x$Year)), main="Video Games", xlab="Year")
+
+
+variable 2:
+
+hist(x$Global_Sales, main="Video Games", xlab="Global Sales")
