@@ -1,26 +1,26 @@
 dual variables:
 
 set terminal png
-set xlabel "NA Sales"
-set ylabel "Global Sales"      
+set xlabel 'Year'
+set ylabel 'Global Sales'      
 set datafile separator ","
 set output 'dualvariable.png'
-plot 'vgsales.csv' using 7:11 with lines title 'Video Games'
+plot 'vgsales.csv' using 4:11 with dots title "Video Games"
 
 
 variable 1:
 
 set terminal png
-set ylabel 'NA Sales'
+set ylabel 'Year'
 set datafile separator ","
 set output 'variable1.png'
-plot 'vgsales.csv' using 11 with lines title 'Video Games'
+plot 'vgsales.csv' using 4 smooth frequency with boxes title "Video Games"
 
 
 variable 2:
 
 set terminal png
-set xlabel 'Global Sales'
+set ylabel 'Global Sales'
 set datafile separator ","
 set output 'variable2.png'
-plot 'vgsales.csv' using 7 with lines title 'Video Games'
+plot 'vgsales.csv' using 11 smooth frequency with boxes title "Video Games"
