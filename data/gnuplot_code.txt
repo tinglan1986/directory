@@ -11,16 +11,16 @@ plot 'vgsales.csv' using 4:11 with dots title "Video Games"
 variable 1:
 
 set terminal png
-set ylabel 'Year'
+set xlabel 'Year'
 set datafile separator ","
 set output 'variable1.png'
-plot 'vgsales.csv' using 4 smooth frequency with boxes title "Video Games"
+plot 'vgsales.csv' using 4 smooth frequency with boxes title 'Video Games'
 
 
 variable 2:
 
 set terminal png
-set ylabel 'Global Sales'
+set xlabel 'Global Sales'
 set datafile separator ","
 set output 'variable2.png'
-plot 'vgsales.csv' using 11 smooth frequency with boxes title "Video Games"
+plot 'vgsales.csv' using 11 smooth frequency with boxes title 'Video Games'
