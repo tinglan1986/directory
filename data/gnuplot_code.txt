@@ -5,7 +5,7 @@ set xlabel 'Year'
 set ylabel 'Global Sales'      
 set datafile separator ","
 set output 'dualvariable.png'
-plot 'vgsales.csv' using 4:11 with dots title 'Video Games'
+plot 'vgsales.csv' using 4:11 with points title 'Video Games'
 
 
 variable 1:
