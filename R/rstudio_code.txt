@@ -1,13 +1,20 @@
-dual variable:
+install.packages(“RCurl”)
+
+library(RCurl) 
+
+x <- read.csv("https://raw.githubusercontent.com/tinglan1986/directory/master/data/vgsales.csv")
+
+
+# The plot with x/y variable
 
 plot(as.numeric(as.character(x$Year)), x$Global_Sales, main="Video Games", xlab="Year", ylab="Global Sales")
 
 
-variable 1:
+# The plot with the first variable
 
 hist(as.numeric(as.character(x$Year)), main="Video Games", xlab="Year")
 
 
-variable 2:
+# The plot with the second variable
 
 hist(x$Global_Sales, main="Video Games", xlab="Global Sales")
