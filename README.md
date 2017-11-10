@@ -1,5 +1,5 @@
 Dataset:
-In order to play with the plot in visualization, we have to download a dataset in the csv format.
+In order to play with the plot in visualization, we have to download a dataset in the csv format. And it is basically a collection of dataset about the sale figure of 16599 video games. 
 
 Docker:
 The first step of this project is to create a Linux environment by running with Docker. Initially, we have to find a Docker image, then install it with a new Docker container. Within the Linux environment created by the Docker container, we have to create the directory or folder that matches the name of our Github repository. Meanwhile, we also have to establish a connection to Github by downloading a local copy of the Github repository in the Docker container.
